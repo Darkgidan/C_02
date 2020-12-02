@@ -6,11 +6,11 @@
 /*   By: tcarciof <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/01 14:04:11 by tcarciof          #+#    #+#             */
-/*   Updated: 2020/12/02 15:07:00 by tcarciof         ###   ########.fr       */
+/*   Updated: 2020/12/02 17:10:21 by tcarciof         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_str_is_numeric(char *c)
+int		ft_str_is_numeric(char *str)
 {
 	if (*str == '\0')
 		return (1);

@@ -6,11 +6,11 @@
 /*   By: tcarciof <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/01 14:03:56 by tcarciof          #+#    #+#             */
-/*   Updated: 2020/12/02 12:51:15 by tcarciof         ###   ########.fr       */
+/*   Updated: 2020/12/02 17:05:29 by tcarciof         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_str_is_lowercase(cahr *str)
+int		ft_str_is_lowercase(char *str)
 {
 	if (*str == '\0')
 		return (1);
